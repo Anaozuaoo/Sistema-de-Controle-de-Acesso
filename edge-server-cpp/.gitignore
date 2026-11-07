@@ -1,0 +1,8 @@
+build/
+bin/
+*.exe
+*.o
+*.obj
+.env
+fotos_treinamento/
+fotos_roberto/

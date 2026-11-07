@@ -1,0 +1,23 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+/**
+ * ============================================================================
+ * SISTEMA DISTRIBUÍDO DE CONTROLE DE ACESSO - CONFIGURAÇÕES DE FIRMWARE
+ * ============================================================================
+ * Definições de credenciais de rede Wi-Fi, mDNS e token de autenticação.
+ * Renomeie ou duplique este arquivo para 'config.h' e preencha suas credenciais.
+ */
+
+// Credenciais da rede Wi-Fi local (2.4 GHz)
+#define WIFI_SSID       "SUA_REDE_WIFI"
+#define WIFI_PASS       "SUA_SENHA_WIFI"
+
+// Token de autenticação HTTP esperado no cabeçalho "X-Auth-Token"
+// Deve ser idêntico ao configurado no Edge Server (C++) e AI Server (Python)
+#define TOKEN_SECRETO   "SEU_TOKEN_SECRETO"
+
+// Nome de domínio mDNS para acesso na rede local (ex: http://camera.local)
+#define MDNS_HOSTNAME   "camera"
+
+#endif // CONFIG_H

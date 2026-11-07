@@ -1,0 +1,83 @@
+# ==============================================================================
+# REPOSITÓRIO DISTRIBUÍDO DE CONTROLE DE ACESSO - .GITIGNORE
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Arquivos e Pastas de Desenvolvimento Local / Legados
+# ------------------------------------------------------------------------------
+hello_world/
+Servidor_seguranca/
+Parte com ia com python/
+Entregas/
+backup.txt
+sdasd.txt
+resumo do projeto.txt
+volei.html
+ESP32S3_Pinout.png
+implementation_plan.md
+proposta_projeto.md
+relatorio_academico_final.md
+*.pdf
+*.whl
+
+# ------------------------------------------------------------------------------
+# Ambientes Virtuais, Caches e Segredos
+# ------------------------------------------------------------------------------
+.env
+.env.local
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+firmware-esp32/main/config.h
+
+# ------------------------------------------------------------------------------
+# Artefatos de Compilação (C++ / CMake / ESP-IDF)
+# ------------------------------------------------------------------------------
+build/
+bin/
+obj/
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.elf
+*.bin
+*.map
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# ESP-IDF
+managed_components/
+dependencies.lock
+sdkconfig
+sdkconfig.old
+
+# ------------------------------------------------------------------------------
+# Configurações de IDE e Sistema Operacional
+# ------------------------------------------------------------------------------
+.vscode/
+.idea/
+.devcontainer/
+*.suo
+*.user
+*.userosv
+*.sln.docstates
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------------------------------------------------------------
+# Dados de Execução e Logs Dinâmicos
+# ------------------------------------------------------------------------------
+*.log
+historico_acessos.csv
+yolov8n.pt
